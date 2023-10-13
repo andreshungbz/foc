@@ -1,3 +1,42 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* header */
+.navstick {
+  @apply sm:sticky sm:top-0;
+}
+
+.navbar {
+  @apply flex w-full flex-col justify-between gap-2 border-b-8 border-lime-600 bg-neutral-800 
+    py-3 text-white md:h-20 md:flex-row md:px-3;
+}
+
+.navsection,
+.linksection {
+  @apply flex flex-col items-center justify-center gap-2 md:flex-row md:gap-4;
+}
+
+.linksection {
+  @apply w-full md:inline md:w-auto;
+}
+
+.navmenu {
+  @apply flex w-full justify-center gap-2 bg-neutral-700 py-1 uppercase md:hidden;
+}
+
+.navsection h1 {
+  @apply mx-2 text-center text-2xl font-bold uppercase;
+}
+
+.linksection > a {
+  @apply mr-1 w-full px-2 py-1 text-center md:w-auto;
+}
+
+.linksection > a:hover {
+  @apply bg-lime-500 text-black transition-all;
+}
+
+.linksection > a.active {
+  @apply bg-lime-500 text-black;
+}
