@@ -40,3 +40,21 @@
 .linksection > a.active {
   @apply bg-lime-500 text-black;
 }
+
+/* footer */
+.footer {
+  @apply flex flex-col items-center justify-center gap-2 border-t-8 border-lime-600 bg-neutral-800 py-3
+    text-neutral-400 md:flex-row md:gap-5;
+}
+
+.footersection {
+  @apply w-full p-2 text-center text-sm md:w-auto md:text-left;
+}
+
+.footersection a {
+  @apply text-lime-500;
+}
+
+.footersection a:hover {
+  @apply underline;
+}
