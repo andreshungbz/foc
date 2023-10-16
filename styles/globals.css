@@ -14,11 +14,11 @@
 
 .navsection,
 .linksection {
-  @apply flex flex-col items-center justify-center gap-2 md:flex-row md:gap-4;
+  @apply relative flex flex-col items-center justify-center gap-2 md:flex-row md:gap-4;
 }
 
 .linksection {
-  @apply w-full md:inline md:w-auto;
+  @apply hidden w-full md:inline md:w-auto;
 }
 
 .navmenu {
@@ -30,15 +30,23 @@
 }
 
 .linksection > a {
-  @apply mr-1 w-full px-2 py-1 text-center md:w-auto;
+  @apply mr-1 w-full px-2 py-1 text-center text-sm uppercase md:w-auto;
 }
 
 .linksection > a:hover {
   @apply bg-lime-500 text-black transition-all;
 }
 
-.linksection > a.active {
+.active {
   @apply bg-lime-500 text-black;
+}
+
+.dropdown {
+  @apply absolute inset-auto top-full z-50 mt-3 flex min-w-[250px] flex-col items-center justify-center gap-2 border-2 bg-neutral-950 p-2 opacity-90 transition-all;
+}
+
+.dropdown-link {
+  @apply block w-full text-center text-sm uppercase text-white;
 }
 
 /* footer */
