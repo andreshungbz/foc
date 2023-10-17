@@ -1,7 +1,7 @@
 export default function Documentation() {
   return (
-    <main>
+    <div>
       <h1>Documentation</h1>
-    </main>
+    </div>
   );
 }

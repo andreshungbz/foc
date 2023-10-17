@@ -1,7 +1,7 @@
 export default function Concept() {
   return (
-    <main>
+    <div>
       <h1>Concept</h1>
-    </main>
+    </div>
   );
 }

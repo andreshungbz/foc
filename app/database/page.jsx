@@ -1,7 +1,7 @@
 export default function Database() {
   return (
-    <main>
+    <div>
       <h1>Database</h1>
-    </main>
+    </div>
   );
 }
