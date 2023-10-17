@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 /* header */
+
 .navstick {
   @apply sm:sticky sm:top-0;
 }
@@ -50,6 +51,7 @@
 }
 
 /* footer */
+
 .footer {
   @apply flex flex-col items-center justify-center gap-2 border-t-8 border-lime-600 bg-neutral-800 py-3
     text-neutral-400 md:flex-row md:gap-5;
@@ -65,4 +67,48 @@
 
 .footersection a:hover {
   @apply underline;
+}
+
+/* body */
+
+/* make footer stick to bottom of page */
+/* https://stackoverflow.com/a/65599498/22647886 */
+.layout {
+  @apply flex h-screen flex-col;
+}
+
+main {
+  @apply flex-grow p-6 md:px-36 md:py-6;
+}
+
+main h1 {
+  @apply mb-3 border-b-4 border-lime-500 text-center text-2xl font-bold uppercase md:text-left;
+}
+
+main p {
+  @apply mb-3 md:text-left;
+}
+
+.image {
+  @apply m-3 mx-auto block justify-self-center border-2 border-neutral-500 shadow-lg xl:mb-6 xl:mr-5;
+}
+
+.flexsection {
+  @apply flex flex-col items-center gap-2 md:gap-3 xl:flex-row;
+}
+
+ol {
+  @apply list-outside list-decimal p-3;
+}
+
+ol li {
+  @apply mb-2 border-b-2 border-neutral-200 pb-2 text-sm;
+}
+
+main a {
+  @apply text-lime-600 underline;
+}
+
+main a:hover {
+  @apply text-lime-500;
 }
