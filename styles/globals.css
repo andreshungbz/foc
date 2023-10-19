@@ -105,10 +105,30 @@ ol li {
   @apply mb-2 border-b-2 border-neutral-200 pb-2 text-sm;
 }
 
-main a {
+p a {
   @apply text-lime-600 underline;
 }
 
-main a:hover {
+p a:hover {
   @apply text-lime-500;
+}
+
+.concept {
+  @apply my-4 flex flex-col items-center gap-3 border-2 border-neutral-700 bg-lime-50 transition-all hover:-translate-y-1 hover:translate-x-1 hover:bg-lime-100 md:flex-row md:justify-normal;
+}
+
+.concept img {
+  @apply m-3 border-2 border-neutral-500 shadow-lg md:mr-5;
+}
+
+.concept .info {
+  @apply p-3 text-center md:text-left;
+}
+
+.concept .title {
+  @apply text-3xl font-bold uppercase text-lime-700;
+}
+
+.concept .author {
+  @apply text-lime-600;
 }
