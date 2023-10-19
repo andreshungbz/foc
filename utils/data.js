@@ -19,25 +19,25 @@ const concepts = [
 const profiles = [
   {
     name: "Andres Hung",
-    biography: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mauris lacus, pellentesque at ex viverra, elementum condimentum lorem. Nunc sed ex vitae elit fermentum porta vel at sem. Curabitur eu rutrum arcu. Etiam in feugiat dui. Pellentesque mattis turpis nisl, a aliquet mauris tristique sed. Sed magna nisl, sagittis non augue euismod, facilisis bibendum libero. Quisque semper, ex et placerat pulvinar, metus diam iaculis turpis, et placerat ligula erat in arcu.",
+    biography: "I enjoy working with computers and learning about the technologies used to power the web today! I am currently working on my Associates's Degree in Information Technology at the University of Belize.",
     image: "https://avatars.githubusercontent.com/u/115679125?v=4",
     link: "https://github.com/andreshungbz",
   },
   {
     name: "Jennessa Sierra",
-    biography: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mauris lacus, pellentesque at ex viverra, elementum condimentum lorem. Nunc sed ex vitae elit fermentum porta vel at sem. Curabitur eu rutrum arcu. Etiam in feugiat dui. Pellentesque mattis turpis nisl, a aliquet mauris tristique sed. Sed magna nisl, sagittis non augue euismod, facilisis bibendum libero. Quisque semper, ex et placerat pulvinar, metus diam iaculis turpis, et placerat ligula erat in arcu.",
+    biography: "Placeholder",
     image: "https://avatars.githubusercontent.com/u/143227481?v=4",
     link: "https://github.com/jennxsierra",
   },
   {
     name: "Placeholder",
-    biography: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mauris lacus, pellentesque at ex viverra, elementum condimentum lorem. Nunc sed ex vitae elit fermentum porta vel at sem. Curabitur eu rutrum arcu. Etiam in feugiat dui. Pellentesque mattis turpis nisl, a aliquet mauris tristique sed. Sed magna nisl, sagittis non augue euismod, facilisis bibendum libero. Quisque semper, ex et placerat pulvinar, metus diam iaculis turpis, et placerat ligula erat in arcu.",
+    biography: "Placeholder",
     image: "/profile/warwick.png",
     link: "https://github.com/andreshungbz",
   },
   {
     name: "Placeholder",
-    biography: "Hello",
+    biography: "Placeholder",
     image: "/profile/warwick.png",
     link: "https://github.com/andreshungbz",
   }
