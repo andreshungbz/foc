@@ -150,3 +150,7 @@ p a:hover {
 .profile p {
   @apply text-center text-sm;
 }
+
+.profile img {
+  @apply border-2 border-neutral-500 shadow-lg;
+}
