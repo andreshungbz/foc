@@ -16,6 +16,38 @@ const concepts = [
   }
 ];
 
+const projects = [
+  {
+    name: "Binary/Hexadecimal Converter",
+    link: "/project/binary-hexadecimal-converter",
+  },
+  {
+    name: "ASCII Converter",
+    link: "/project/ascii-converter",
+  },
+  {
+    name: "Unicode Converter",
+    link: "/project/unicode-converter",
+  },
+  {
+    name: "BMI Calculator",
+    link: "/project/bmi-calculator",
+  },
+  {
+    name: "Logic Gates Demonstration",
+    link: "/project/logic-gates",
+  },
+  {
+    name: "Machine Language Instructions Demonstration",
+    link: "/project/machine-language-instructions",
+  },
+  {
+    name: "UB Campus Photography",
+    link: "/project/ub-campus-photography",
+    special: true,
+  }
+];
+
 const profiles = [
   {
     name: "Andres Hung",
@@ -43,4 +75,4 @@ const profiles = [
   }
 ];
 
-export {concepts, profiles};
+export {concepts, projects, profiles};
