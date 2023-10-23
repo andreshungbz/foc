@@ -148,11 +148,11 @@ p a:hover {
 
 .profile {
   @apply h-full border-2 border-emerald-600 bg-emerald-50 
-    p-3 transition-all hover:-translate-y-1 hover:translate-x-1 hover:bg-emerald-100;
+    p-3 transition-all hover:-translate-y-1 hover:translate-x-1 hover:bg-green-100;
 }
 
 .profile h2 {
-  @apply my-3 text-center text-2xl font-bold uppercase text-emerald-700;
+  @apply mt-3 text-center text-2xl font-bold uppercase text-emerald-700;
 }
 
 .profile p {
@@ -161,6 +161,15 @@ p a:hover {
 
 .profile img {
   @apply border-2 border-neutral-500 shadow-lg;
+}
+
+.profile .profile-title {
+  @apply my-1 text-center text-xs font-bold uppercase text-emerald-500;
+}
+
+.profile .profile-link {
+  @apply my-2 rounded-md border-b-4 border-emerald-400 bg-emerald-200 p-1 text-center text-xs uppercase 
+    text-emerald-900 hover:bg-emerald-300 hover:text-emerald-950;
 }
 
 .project {
@@ -172,5 +181,5 @@ p a:hover {
 }
 
 .backlink {
-  @apply bg-emerald-100 p-2 text-sm uppercase text-emerald-600 hover:bg-emerald-200;
+  @apply border-2 border-emerald-600 bg-emerald-50 p-2 text-sm uppercase text-emerald-900 hover:bg-emerald-100;
 }
