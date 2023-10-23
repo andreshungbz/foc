@@ -1,3 +1,4 @@
+import BinaryHexadecimalConverter from "@/components/project/BinaryHexadecimalConverter";
 import Link from "next/link";
 
 export const metadata = {
@@ -13,6 +14,7 @@ export default function BinaryHexadecimalConverterPage() {
       <Link href="/project">
         <div className="backlink">⬅️ Back to Projects</div>
       </Link>
+      <BinaryHexadecimalConverter />
     </div>
   );
 }
