@@ -1,6 +1,12 @@
 import { profiles } from "@/utils/data";
 import ProfileItem from "@/components/ProfileItem";
 
+export const metadata = {
+  title: "Dev Team",
+  description:
+    "Group members for the final project in the Fundamentals of Computing course [CMPS1134-2]",
+};
+
 export default function Team() {
   return (
     <div>

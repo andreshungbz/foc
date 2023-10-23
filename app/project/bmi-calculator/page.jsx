@@ -1,5 +1,10 @@
 import Link from "next/link";
 
+export const metadata = {
+  title: "BMI Calculator",
+  description: "A web application that calculates your Body Mass Index (BMI).",
+};
+
 export default function BMICalculator() {
   return (
     <div>

@@ -1,5 +1,11 @@
 import Link from "next/link";
 
+export const metadata = {
+  title: "UB Campus Photography",
+  description:
+    "A web application that displays photographs of the University of Belize (UB) campus.",
+};
+
 export default function UBCampusPhotography() {
   return (
     <div>

@@ -1,6 +1,12 @@
 import { concepts } from "@/utils/data.js";
 import ConceptItem from "@/components/ConceptItem";
 
+export const metadata = {
+  title: "Concept",
+  description:
+    "Presentations by students on various concepts in the Fundamentals of Computing course [CMPS1134-2]",
+};
+
 export default function Concept() {
   return (
     <div>

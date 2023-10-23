@@ -1,6 +1,11 @@
 import { projects } from "@/utils/data";
 import ProjectItem from "@/components/ProjectItem";
 
+export const metadata = {
+  title: "Project",
+  description: "Various projects in Javascript",
+};
+
 export default function Project() {
   return (
     <div>

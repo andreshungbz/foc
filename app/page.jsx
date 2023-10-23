@@ -1,6 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Fundamentals of Computing",
+  description:
+    "Final project for the University of Belize Fundamentals of Computing course [CMPS1134-2]",
+};
+
 export default function Home() {
   return (
     <div>
