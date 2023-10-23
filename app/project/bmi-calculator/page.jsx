@@ -5,7 +5,7 @@ export const metadata = {
   description: "A web application that calculates your Body Mass Index (BMI).",
 };
 
-export default function BMICalculator() {
+export default function BMICalculatorPage() {
   return (
     <div>
       <h1>Body Mass Index (BMI) Calculator</h1>

@@ -6,7 +6,7 @@ export const metadata = {
     "A web application that converts binary to Unicode and vice versa.",
 };
 
-export default function UnicodeConverter() {
+export default function UnicodeConverterPage() {
   return (
     <div>
       <h1>Unicode Converter</h1>

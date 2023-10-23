@@ -6,7 +6,7 @@ export const metadata = {
     "A web application that displays photographs of the University of Belize (UB) campus.",
 };
 
-export default function UBCampusPhotography() {
+export default function UBCampusPhotographyPage() {
   return (
     <div>
       <h1>University of Belize (UB) Campus Photography</h1>

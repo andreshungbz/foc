@@ -6,7 +6,7 @@ export const metadata = {
     "A web application that demonstrates the functionality of logic gates.",
 };
 
-export default function LogicGates() {
+export default function LogicGatesPage() {
   return (
     <div>
       <h1>Logic Gates Demonstration</h1>

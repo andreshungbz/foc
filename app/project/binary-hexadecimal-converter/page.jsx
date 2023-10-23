@@ -6,7 +6,7 @@ export const metadata = {
     "A web application that converts binary to hexadecimal and vice versa.",
 };
 
-export default function BinaryHexadecimalConverter() {
+export default function BinaryHexadecimalConverterPage() {
   return (
     <div>
       <h1>Binary Hexadecimal Converter</h1>

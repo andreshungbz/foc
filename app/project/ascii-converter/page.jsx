@@ -6,7 +6,7 @@ export const metadata = {
     "A web application that converts binary to ASCII and vice versa.",
 };
 
-export default function ASCIIConverter() {
+export default function ASCIIConverterPage() {
   return (
     <div>
       <h1>ASCII Converter</h1>

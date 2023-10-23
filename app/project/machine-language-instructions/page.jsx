@@ -6,7 +6,7 @@ export const metadata = {
     "A web application that demonstrates the functionality of machine language instructions.",
 };
 
-export default function MachineLanguageInstructions() {
+export default function MachineLanguageInstructionsPage() {
   return (
     <div>
       <h1>Machine Language Instructions Demonstration</h1>
