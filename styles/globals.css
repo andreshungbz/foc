@@ -183,3 +183,7 @@ p a:hover {
 .backlink {
   @apply border-2 border-emerald-600 bg-emerald-50 p-2 text-sm uppercase text-emerald-900 hover:bg-emerald-100;
 }
+
+.project-area {
+  @apply mt-3 flex flex-col items-center gap-3 border-2 border-lime-600 bg-lime-50 p-3 md:flex-row md:justify-between;
+}

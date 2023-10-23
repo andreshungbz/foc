@@ -1,3 +1,4 @@
+import BMICalculator from "@/components/project/BMICalculator";
 import Link from "next/link";
 
 export const metadata = {
@@ -12,6 +13,7 @@ export default function BMICalculatorPage() {
       <Link href="/project">
         <div className="backlink">⬅️ Back to Projects</div>
       </Link>
+      <BMICalculator />
     </div>
   );
 }
