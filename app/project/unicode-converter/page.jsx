@@ -1,3 +1,4 @@
+import UnicodeConverter from "@/components/project/UnicodeConverter";
 import Link from "next/link";
 
 export const metadata = {
@@ -13,6 +14,7 @@ export default function UnicodeConverterPage() {
       <Link href="/project">
         <div className="backlink">⬅️ Back to Projects</div>
       </Link>
+      <UnicodeConverter />
     </div>
   );
 }
