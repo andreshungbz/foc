@@ -16,6 +16,7 @@ export default function ASCIIConverter() {
     const result = String.fromCharCode(ascii);
     setAsciiResult(`${result}`);
   }
+
   return (
     <div className="project-area">
       <div className="p-3 md:w-1/2">
@@ -24,6 +25,7 @@ export default function ASCIIConverter() {
           width={700}
           height={700}
           alt="ASCII Table"
+          className="border-2 border-lime-600"
         />
       </div>
       <div className="flex w-6/12 flex-col gap-3">
