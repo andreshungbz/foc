@@ -49,7 +49,7 @@ export default function BinaryHexadecimalConverter() {
           <p className="text-center">Binary to Hexadecimal</p>
           <input
             type="text"
-            name="height"
+            name="binary"
             value={binary}
             onChange={(e) => {
               setBinary(e.target.value);
@@ -72,7 +72,7 @@ export default function BinaryHexadecimalConverter() {
           <p className="text-center">Hexadecimal to Binary</p>
           <input
             type="text"
-            name="height"
+            name="hexadecimal"
             value={hexadecimal}
             onChange={(e) => {
               setHexadecimal(e.target.value);

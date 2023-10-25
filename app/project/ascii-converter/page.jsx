@@ -1,3 +1,4 @@
+import ASCIIConverter from "@/components/project/ASCIIConverter";
 import Link from "next/link";
 
 export const metadata = {
@@ -13,6 +14,7 @@ export default function ASCIIConverterPage() {
       <Link href="/project">
         <div className="backlink">⬅️ Back to Projects</div>
       </Link>
+      <ASCIIConverter />
     </div>
   );
 }
