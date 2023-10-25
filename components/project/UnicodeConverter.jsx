@@ -28,7 +28,7 @@ export default function UnicodeConverter() {
           src="/project/unicode-table.jpeg"
           width={700}
           height={700}
-          alt="ASCII Table"
+          alt="Unicode Table"
           className="border-2 border-lime-600"
         />
         <p className="m-0 mt-1 text-center text-sm text-neutral-600">
