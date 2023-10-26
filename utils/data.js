@@ -13,6 +13,13 @@ const concepts = [
     description: "Internet Applications are applications that built on the application layer of the internet protocol suite.",
     image: "/concept/js-internet-applications.png",
     link: "https://docs.google.com/presentation/d/10RCNFoBkhy49K3KyMioW_9bEd2450ayQM8dH3pMtFt0/edit?usp=sharing"
+  },
+  {
+    name: "Tysha Daniels",
+    title: "The Concept of a Process",
+    description: "A process is the execution of a program or algorithm.",
+    image: "/concept/td-process-concept.jpeg",
+    link: "https://docs.google.com/presentation/d/1r-MCmO0MrMpvn-c9UADwqlMTVMGYoNxDIogM5qU5V8w/edit?usp=sharing"
   }
 ];
 
@@ -52,7 +59,7 @@ const profiles = [
   {
     name: "Andres Hung",
     title: "Part-time Kangaroo",
-    biography: "I enjoy working with computers and learning about the technologies used to power the web today! I am currently working on my Associates's Degree in Information Technology at the University of Belize.",
+    biography: "I enjoy working with computers and learning about the technologies used to power the web today!",
     image: "https://avatars.githubusercontent.com/u/115679125?v=4",
     github: "https://github.com/andreshungbz",
     project: "https://github.com/andreshungbz"
@@ -67,14 +74,14 @@ const profiles = [
   },
   {
     name: "Tysha Daniels",
-    title: "Title",
-    biography: "Biography",
-    image: "/profile/warwick.png",
-    github: "https://github.com/andreshungbz",
-    project: "https://github.com/andreshungbz"
+    title: "Certified Manhwa & South Park Fien",
+    biography: "I am an avid advocate for sleep ^^. I tend to enjoy the simple things in life... like sleeping, eating, reading, and coding!",
+    image: "/team/td-avatar.jpeg",
+    github: "https://github.com/aoideee",
+    project: "https://github.com/aoideee"
   },
   {
-    name: "Name",
+    name: "Gian Dorian",
     title: "Title",
     biography: "Biography",
     image: "/profile/warwick.png",

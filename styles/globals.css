@@ -168,7 +168,7 @@ p a:hover {
 }
 
 .profile .profile-link {
-  @apply my-2 rounded-md border-b-4 border-emerald-400 bg-emerald-200 p-1 text-center text-xs uppercase 
+  @apply mt-2 rounded-md border-b-4 border-emerald-400 bg-emerald-200 p-1 text-center text-xs uppercase 
     text-emerald-900 hover:bg-emerald-300 hover:text-emerald-950;
 }
 
