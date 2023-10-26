@@ -1,3 +1,4 @@
+import MachineLanguageInstructions from "@/components/project/MachineLanguageInstructions";
 import Link from "next/link";
 
 export const metadata = {
@@ -13,6 +14,7 @@ export default function MachineLanguageInstructionsPage() {
       <Link href="/project">
         <div className="backlink">⬅️ Back to Projects</div>
       </Link>
+      <MachineLanguageInstructions />
     </div>
   );
 }
