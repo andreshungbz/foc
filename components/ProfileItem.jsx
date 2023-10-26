@@ -13,16 +13,18 @@ export default function ProfileItem({
       <div>
         <Image src={image} alt={name} width={500} height={500} />
       </div>
-      <div className="info">
+      <div className="flex flex-col">
         <h2>{name}</h2>
         <div className="profile-title">{title}</div>
-        <p>{biography}</p>
-        <a href={github} target="_blank">
-          <div className="profile-link">GitHub</div>
-        </a>
-        <a href={project} target="_blank">
-          <div className="profile-link">FOC Website</div>
-        </a>
+        <div>
+          <a href={project} target="_blank">
+            <div className="profile-link">FOC Website</div>
+          </a>
+          <a href={github} target="_blank">
+            <div className="profile-link">GitHub</div>
+          </a>
+        </div>
+        <p className="biography">{biography}</p>
       </div>
     </div>
   );

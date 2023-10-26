@@ -66,8 +66,8 @@ const profiles = [
   },
   {
     name: "Jennessa Sierra",
-    title: "Title",
-    biography: "Biography",
+    title: "Professional Gamer & Crocs Wearer",
+    biography: "A passionate IT student, on a relentless quest to explore the ever-evolving realms of tech, all while learning to code one day at a time!",
     image: "https://avatars.githubusercontent.com/u/143227481?v=4",
     github: "https://github.com/jennxsierra",
     project: "https://github.com/jennxsierra"
