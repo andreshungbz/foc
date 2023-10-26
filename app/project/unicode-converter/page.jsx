@@ -3,8 +3,7 @@ import Link from "next/link";
 
 export const metadata = {
   title: "Unicode Converter",
-  description:
-    "A web application that converts binary to Unicode and vice versa.",
+  description: "A web application that converts codepoint to Unicode.",
 };
 
 export default function UnicodeConverterPage() {
