@@ -21,6 +21,15 @@ export default function LogicGatesPage() {
       <ANDGate />
       <ORGate />
       <XORGate />
+      <p className="mb-0 mt-3 text-center text-sm text-neutral-600">
+        Assets from{" "}
+        <a
+          href="https://academo.org/demos/logic-gate-simulator/"
+          target="_blank"
+        >
+          academo Logic Gate Simulator
+        </a>
+      </p>
     </div>
   );
 }

@@ -84,7 +84,7 @@ const profiles = [
     name: "Gian Dorian",
     title: "Title",
     biography: "Biography",
-    image: "/profile/warwick.png",
+    image: "/team/td-avatar.jpeg",
     github: "https://github.com/andreshungbz",
     project: "https://github.com/andreshungbz"
   }
