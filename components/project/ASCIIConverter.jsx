@@ -28,7 +28,7 @@ export default function ASCIIConverter() {
           className="border-2 border-lime-600"
         />
       </div>
-      <div className="flex w-6/12 flex-col gap-3">
+      <div className="flex flex-col gap-3 md:w-6/12">
         <div className="bg-lime-100 p-3">
           <p className="text-center">Enter a value from 0 to 127</p>
           <input

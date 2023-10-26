@@ -44,7 +44,7 @@ export default function BinaryHexadecimalConverter() {
           numbers 10-15.
         </p>
       </div>
-      <div className="flex w-6/12 flex-col gap-3">
+      <div className="flex flex-col gap-3 md:w-6/12">
         <div className="bg-lime-100 p-3">
           <p className="text-center">Binary to Hexadecimal</p>
           <input

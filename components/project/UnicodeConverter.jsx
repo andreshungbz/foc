@@ -42,7 +42,7 @@ export default function UnicodeConverter() {
           .
         </p>
       </div>
-      <div className="flex w-6/12 flex-col gap-3">
+      <div className="flex flex-col gap-3 md:w-6/12">
         <div className="bg-lime-100 p-3">
           <p className="text-center">Enter Unicode Number</p>
           <input
