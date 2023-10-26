@@ -7,8 +7,8 @@ export default function MachineLanguageInstructions() {
   const [step, setStep] = useState(0);
 
   return (
-    <div className="mt-3 flex flex-col items-center gap-3 border-2 border-lime-600 bg-lime-50 p-3 lg:flex-row lg:justify-evenly">
-      <div className="flex flex-col content-center gap-3 lg:w-6/12">
+    <div className="mt-3 flex flex-col items-center gap-3 border-2 border-lime-600 bg-lime-50 p-3 md:flex-row md:justify-evenly">
+      <div className="flex flex-col content-center gap-3 md:w-6/12">
         <div className="bg-lime-100 p-3">
           <h2 className="mb-2 text-center text-2xl font-bold uppercase">
             Machine Language Instructions
