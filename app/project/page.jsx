@@ -17,7 +17,7 @@ export default function Project() {
       {projects.map((project) => {
         return (
           <ProjectItem
-            key={project.id}
+            key={project.name}
             name={project.name}
             link={project.link}
             special={project?.special}
