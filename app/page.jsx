@@ -36,7 +36,7 @@ export default function Home() {
             core courses for students majoring in Information Technology.
           </p>
           <Link href="/team">
-            <div className="mb-4 border-2 border-lime-600 bg-lime-100 p-3 hover:bg-lime-200">
+            <div className="mb-4 border-2 border-lime-600 bg-lime-100 p-3 text-lime-900 hover:bg-lime-200">
               <p className="m-0 text-center">
                 Click here to check out our other group member&apos;s FOC
                 projects!
