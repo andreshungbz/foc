@@ -35,10 +35,14 @@ export default function Home() {
             offered by the University of Belize as one of the first professional
             core courses for students majoring in Information Technology.
           </p>
-          <p>
-            Check out our other group member&apos;s projects{" "}
-            <Link href="/team">here</Link>!
-          </p>
+          <Link href="/team">
+            <div className="mb-4 border-2 border-lime-600 bg-lime-100 p-3 hover:bg-lime-200">
+              <p className="m-0 text-center">
+                Click here to check out our other group member&apos;s FOC
+                projects!
+              </p>
+            </div>
+          </Link>
         </div>
       </div>
       <h1>Course Intended Learning Outcomes (CILOs)</h1>
