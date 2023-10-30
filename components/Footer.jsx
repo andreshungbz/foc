@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="footersection">
         <p>Website and Design by Andres Hung</p>
-        <p>[CMPS1134-2] FOC Final Project</p>
+        <p>[CMPS1134-2] Group 5 FOC Final Project</p>
         <p>Semester 2023-1</p>
         <p>University of Belize</p>
       </div>
