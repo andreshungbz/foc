@@ -70,7 +70,7 @@ const profiles = [
     biography: "A passionate IT student, on a relentless quest to explore the ever-evolving realms of tech, all while learning to code one day at a time!",
     image: "https://avatars.githubusercontent.com/u/143227481?v=4",
     github: "https://github.com/jennxsierra",
-    project: "https://github.com/jennxsierra"
+    project: "https://jennxsierra.github.io/foc/"
   },
   {
     name: "Tysha Daniels",
@@ -85,8 +85,8 @@ const profiles = [
     title: "Title",
     biography: "Biography",
     image: "/team/td-avatar.jpeg",
-    github: "https://github.com/andreshungbz",
-    project: "https://github.com/andreshungbz"
+    github: "https://github.com/gcplays2022",
+    project: "https://gcplays2022.github.io/foc/"
   }
 ];
 
