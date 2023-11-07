@@ -98,7 +98,7 @@ main p {
 }
 
 .image {
-  @apply m-3 mx-auto block justify-self-center border-2 border-neutral-500 shadow-lg xl:mb-6 xl:mr-5;
+  @apply m-3 mx-auto block justify-self-center border-2 border-emerald-600 shadow-lg xl:mb-6 xl:mr-5;
 }
 
 .flexsection {
