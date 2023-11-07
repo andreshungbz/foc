@@ -13,8 +13,8 @@ export default function Home() {
       <h1>Course</h1>
       <div className="flexsection">
         <Image
-          src="/placeholder.jpeg"
-          width={500}
+          src="/group-photo.png"
+          width={450}
           height={300}
           alt="placeholder"
           className="image"
