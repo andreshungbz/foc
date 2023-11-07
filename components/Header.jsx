@@ -149,36 +149,39 @@ export default function Header() {
           )}
           {/* desktop navigation */}
           <div className="linksection">
-            <Link href={"/"} className={pathname == "/" && "active"}>
+            <Link href={"/"} className={pathname == "/" ? "active" : undefined}>
               Course
             </Link>
             {/* use startsWith method to ensure subroutes are also active
           https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/startsWith */}
             <Link
               href={"/project"}
-              className={pathname.startsWith("/project") && "active"}
+              className={pathname.startsWith("/project") ? "active" : undefined}
             >
               Project
             </Link>
             <Link
               href={"/concept"}
-              className={pathname == "/concept" && "active"}
+              className={pathname == "/concept" ? "active" : undefined}
             >
               Concept
             </Link>
             <Link
               href={"/database"}
-              className={pathname == "/database" && "active"}
+              className={pathname == "/database" ? "active" : undefined}
             >
               Database
             </Link>
             <Link
               href={"/documentation"}
-              className={pathname == "/documentation" && "active"}
+              className={pathname == "/documentation" ? "active" : undefined}
             >
               Documentation
             </Link>
-            <Link href={"/team"} className={pathname == "/team" && "active"}>
+            <Link
+              href={"/team"}
+              className={pathname == "/team" ? "active" : undefined}
+            >
               Team
             </Link>
           </div>
