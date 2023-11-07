@@ -16,6 +16,7 @@ export default function ProfileItem({
       <div className="flex flex-col">
         <h2>{name}</h2>
         <div className="profile-title">{title}</div>
+        <p className="biography">{biography}</p>
         <div>
           <a href={project} target="_blank">
             <div className="profile-link">FOC Website</div>
@@ -24,7 +25,6 @@ export default function ProfileItem({
             <div className="profile-link">GitHub</div>
           </a>
         </div>
-        <p className="biography">{biography}</p>
       </div>
     </div>
   );
