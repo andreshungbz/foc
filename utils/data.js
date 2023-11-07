@@ -18,8 +18,15 @@ const concepts = [
     name: "Tysha Daniels",
     title: "The Concept of a Process",
     description: "A process is the execution of a program or algorithm.",
-    image: "/concept/td-process-concept.jpeg",
+    image: "/concept/td-process-concept.png",
     link: "https://docs.google.com/presentation/d/1r-MCmO0MrMpvn-c9UADwqlMTVMGYoNxDIogM5qU5V8w/edit?usp=sharing"
+  },
+  {
+    name: "Gian Dorian",
+    title: "Robotics",
+    description: "Robotics is the study of physical, autonomous agents behaving intelligently in the real world.",
+    image: "/concept/gd-robotics.png",
+    link: "https://docs.google.com/presentation/d/1ORjsDQ1qlWPlA7DUc_Qfh8IWJQVCxxeNc9bn_qpRX7E/edit?usp=sharing"
   }
 ];
 
@@ -82,9 +89,9 @@ const profiles = [
   },
   {
     name: "Gian Dorian",
-    title: "Title",
-    biography: "Biography",
-    image: "/team/td-avatar.jpeg",
+    title: "Professional League Player and Minecraft Modpack Maker",
+    biography: "I'm a League of Legends enjoyer and I love playing/creating Minecraft modpacks ^w^. I'm always finding new ways to improve any techy skills that I can and I wish to learn more about coding and photoshop! :3 Gaming is my favorite pass time!",
+    image: "/team/gd-avatar.jpg",
     github: "https://github.com/gcplays2022",
     project: "https://gcplays2022.github.io/foc/"
   }
