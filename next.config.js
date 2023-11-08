@@ -10,6 +10,7 @@ const nextConfig = {
     },
   ],
 },
+// https://github.com/vercel/next.js/discussions/20991#discussioncomment-7166243
 async headers() {
   return [{
       source: '/:all*(svg|jpg|jpeg|png|gif|ico|webp|mp4|ttf|otf|woff|woff2)',
