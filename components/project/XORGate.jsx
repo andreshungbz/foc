@@ -22,6 +22,7 @@ export default function XORGate() {
           width={852}
           height={446}
           alt="NOT Gate"
+          priority={true}
           className="border-2 border-lime-600"
         />
       </div>

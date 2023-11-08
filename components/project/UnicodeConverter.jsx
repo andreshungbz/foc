@@ -29,6 +29,7 @@ export default function UnicodeConverter() {
           width={700}
           height={700}
           alt="Unicode Table"
+          priority={true}
           className="border-2 border-lime-600"
         />
         <p className="m-0 mt-1 text-center text-sm text-neutral-600">

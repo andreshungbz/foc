@@ -31,6 +31,7 @@ export default function MachineLanguageInstructions() {
                 width={400}
                 height={182}
                 alt="Step 1"
+                priority={true}
                 className="inline-block border-2 border-lime-600"
               />
             </button>
@@ -44,6 +45,7 @@ export default function MachineLanguageInstructions() {
                 width={400}
                 height={182}
                 alt="Step 2"
+                priority={true}
                 className="inline-block border-2 border-lime-600"
               />
             </button>
@@ -57,6 +59,7 @@ export default function MachineLanguageInstructions() {
                 width={400}
                 height={182}
                 alt="Step 3"
+                priority={true}
                 className="inline-block border-2 border-lime-600"
               />
             </button>
@@ -70,6 +73,7 @@ export default function MachineLanguageInstructions() {
                 width={400}
                 height={182}
                 alt="Step 4"
+                priority={true}
                 className="inline-block border-2 border-lime-600"
               />
             </button>
@@ -83,6 +87,7 @@ export default function MachineLanguageInstructions() {
                 width={400}
                 height={182}
                 alt="Step 5"
+                priority={true}
                 className="inline-block border-2 border-lime-600"
               />
             </button>
@@ -107,6 +112,7 @@ export default function MachineLanguageInstructions() {
           width={1320}
           height={1002}
           alt="Vole Machine Appendix"
+          priority={true}
           className="border-2 border-lime-600"
         />
       </div>

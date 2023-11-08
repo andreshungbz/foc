@@ -23,6 +23,7 @@ export default function Database() {
             width={0}
             height={0}
             sizes="100vw"
+            priority={true}
             className="mx-auto block h-auto w-5/6 border-2 border-neutral-500 shadow-lg"
           />
         </div>

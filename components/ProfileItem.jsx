@@ -11,7 +11,13 @@ export default function ProfileItem({
   return (
     <div className="profile">
       <div>
-        <Image src={image} alt={name} width={500} height={500} />
+        <Image
+          src={image}
+          alt={name}
+          width={500}
+          height={500}
+          priority={true}
+        />
       </div>
       <div className="flex flex-col">
         <h2>{name}</h2>

@@ -18,6 +18,7 @@ export default function Home() {
           height={300}
           alt="placeholder"
           className="image"
+          priority={true}
         />
         <div className="flex flex-col">
           <p>

@@ -25,6 +25,7 @@ export default function ASCIIConverter() {
           width={700}
           height={700}
           alt="ASCII Table"
+          priority={true}
           className="border-2 border-lime-600"
         />
       </div>

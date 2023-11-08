@@ -5,7 +5,13 @@ export default function ConceptItem({ name, title, description, image, link }) {
     <a href={link} target="_blank">
       <div className="concept">
         <div>
-          <Image src={image} alt={title} width={300} height={300} />
+          <Image
+            src={image}
+            alt={title}
+            width={300}
+            height={300}
+            priority={true}
+          />
         </div>
         <div className="info">
           <h2 className="title">{title}</h2>

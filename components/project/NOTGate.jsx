@@ -18,6 +18,7 @@ export default function NOTGate() {
           width={852}
           height={230}
           alt="NOT Gate"
+          priority={true}
           className="border-2 border-lime-600"
         />
       </div>
