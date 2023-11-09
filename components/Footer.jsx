@@ -10,7 +10,7 @@ export default function Footer() {
       <div className="footersection">
         <p>
           <a href="https://github.com/andreshungbz/foc" target="_blank">
-            Project Source Code
+            Source Code
           </a>
         </p>
         <p>
