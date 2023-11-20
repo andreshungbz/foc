@@ -11,7 +11,7 @@ export default function Documentation() {
     <div>
       <h1>Documentation</h1>
       <a
-        href="https://drive.google.com/file/d/1gL6zYcdEBFgzvh-4iPgwfkvESouDlsbX/view?usp=drive_link"
+        href="https://docs.google.com/document/d/1emYNyAIPOih0PMWEr-woOZiIIOPaUv4t/"
         target="_blank"
       >
         <div
