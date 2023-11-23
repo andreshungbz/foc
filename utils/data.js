@@ -66,7 +66,7 @@ const profiles = [
   {
     name: "Andres Hung",
     title: "Part-time Kangaroo",
-    biography: "I enjoy working with computers and learning about the technologies used to power the web today!",
+    biography: "I enjoy working with computers and learning about the technologies used to power the web today! I also do digital art in my free time.",
     image: "https://avatars.githubusercontent.com/u/115679125?v=4",
     github: "https://github.com/andreshungbz",
     project: "https://foc.vercel.app"
