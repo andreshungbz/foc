@@ -5,7 +5,7 @@ const concepts = [
     description:
     "Semaphores are properly implemented flags that enforce mutual exclusion in critical regions.",
     image: "/concept/ah-semaphores.png",
-    link: 'https://docs.google.com/presentation/d/1T07PFXmvSNUeJN7coH5SmyqNuF5qZQJJp8kjrfHIims/edit?usp=share_link',
+    link: "https://docs.google.com/presentation/d/1MO_BbvTAL8XCKRofvTKYfrzepJ9maYkA/edit?usp=sharing&ouid=111908746492411105585&rtpof=true&sd=true",
   },
   {
     name: "Jennessa Sierra",
