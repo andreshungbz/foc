@@ -85,7 +85,7 @@ const profiles = [
     biography: "I am an avid advocate for sleep ^^. I tend to enjoy the simple things in life... like sleeping, eating, reading, and coding!",
     image: "/team/td-avatar.jpeg",
     github: "https://github.com/aoideee",
-    project: "https://aoideee.github.io/foc/"
+    project: "https://aoideee.github.io/FoC-Final-Project/"
   },
   {
     name: "Gian Dorian",
